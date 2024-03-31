@@ -1,24 +1,21 @@
-# Student Management System Group 9 Microproject
+# 🎓 Student Management System Group 9 Microproject 📚
 
 ## Features
-- Add Student
-- Search Student
-- Deleted Student
-- Update Student
-- 
+- ➕ Add Student
+- 🔍 Search Student
+- ❌ Delete Student
+- 🔄 Update Student
+- 👀 View Student
 
 ## How to Use
 
-### Add Student
-To add a new student to the system, follow these steps:
-1. Run the application.
-2. Navigate to the "Add Student" section.
-3. Fill out the required information for the new student, such as name, ID, etc.
-4. Click on the "Add" button to save the student to the system.
-5. The system will confirm the addition of the student and update the database accordingly.
+1. **Download the File**: Obtain the project files from the repository.
 
-## Contributors
-- [List of contributors here]
+2. **Compile the Code**: Use `javac studentManagement.java` to compile the Java code.
 
-## License
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+3. **Run the Program**: Execute the compiled code using `java studentManagement`.
+
+4. **Login Credentials**: Use `userid` as the username and `123` as the password to access the system.
+
+5. **Start Managing Students**: Utilize the provided features to add, search, delete, update, and view student information.
+
