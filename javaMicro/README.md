@@ -15,7 +15,7 @@
 
 3. **Run the Program**: Execute the compiled code using `java studentManagement`.
 
-4. **Login Credentials**: Use `userid` as the username and `123` as the password to access the system.
+4. **Login Credentials**: Use `admin` as the username and `123` as the password to access the system.
 
 5. **Start Managing Students**: Utilize the provided features to add, search, delete, update, and view student information.
 
