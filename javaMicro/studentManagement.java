@@ -76,6 +76,8 @@ class AuthUser {
             password = scanner.nextLine();
             Credential obj = new Credential();
             hash = obj.HashEnc(userName, password);
+
+
             boolean chk = obj.AuthUserValid(hash);
 
             if (chk) {
