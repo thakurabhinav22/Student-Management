@@ -8,9 +8,18 @@ public class Credential {
         return encrypt(combined);
     }
 
-    private String encrypt(String input) {
-        byte[] encodedBytes = Base64.getEncoder().encode(input.getBytes());
-        String encodedString = new String(encodedBytes);
+    public String encrypt(String input) {
+        String encodedString="";
+        for(int i = 0 ; i < input.length() ; i++){
+            char IntoAscii = input.charAt(i);
+            long AsciiInt = (int)  IntoAscii;
+            encodedString += AsciiInt * input.length();
+        }
+        for(int i = 0; i < input.length(); i++ ){
+            char enc = encodedString.charAt(i);
+            long AsciiInt = (int)  enc;
+            encodedString += AsciiInt * input.length(); 
+        }
         return encodedString;
     }
 
